@@ -27,4 +27,4 @@ Then, it uses dictionary logic to group the EHR codes which total occurences are
 
 #### Performance:
 - In the context of imbalanced binary classification, the loss used is the Binary Cross-Entropy, and the main metric of interest is AUPRC, which summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold, with the increase in recall from the previous threshold used as the weight.
-- Training the model on 50 epochs, using a 48-dimensional patient representation and a 128-dimensional two-layers transformers typically lead to AUPRC test scores between *0.35* and *0.40*, the best I have observed so far being *0.43*.
+- Training the model on 50 epochs, using a 48-dimensional patient representation and a 128-dimensional two-layers transformers 
